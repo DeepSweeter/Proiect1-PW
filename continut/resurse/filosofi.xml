@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE filosofi[
+<!ELEMENT filosofi (filosof+)>
+<!ELEMENT filosof (nume, filosofia, locatia, influenta)>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT filosofia (#PCDATA)>
+<!ELEMENT locatia (#PCDATA)>
+<!ELEMENT influenta (#PCDATA)>
+<!ATTLIST filosof id CDATA #REQUIRED>]>
+
+
+<filosofi>
+    <filosof id="1">
+        <nume>Seneca</nume>
+        <filosofia>Stoicism</filosofia>
+        <locatia>Spania, Imperiul Roman</locatia>
+        <influenta>Socrate</influenta>
+    </filosof>
+
+    <filosof id="2">
+        <nume>Jean-Paul Sartre</nume>
+        <filosofia>Existentialism</filosofia>
+        <locatia>Franta</locatia>
+        <influenta>Friedrich Nietzsche, Soren Kierkegaard</influenta>
+
+    </filosof>
+
+    <filosof id="3">
+        <nume>Albert Camus</nume>
+        <filosofia>Absurdism</filosofia>
+        <locatia>Algeria</locatia>
+        <influenta>Friedrich Nietzsche, Arthur Schopenhauer</influenta>
+    </filosof>
+</filosofi>

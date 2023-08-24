@@ -1,0 +1,198 @@
+nav{
+    display: flex;
+    justify-content: center;
+    top: 0;
+    padding: 0px;
+    position: fixed;
+    background-color: rgb(145, 127, 48);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+body{
+    background-image: url("../img/background.jpg");
+    color:white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav>a.navAnchor{
+    vertical-align: middle;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline;
+}
+
+
+.cotainer{
+    width: 100%;
+    height: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::selection{
+    background-color: #dfdc36;
+    color: #aa7005;
+}
+
+
+nav>a:hover{
+
+    background-color: #ceb549;
+
+}
+
+table, th, td {
+    border: 1px solid; 
+  }
+table{
+    background-color: #a08056;
+    color: white;
+    margin-left: 43%
+}
+
+input:focus{
+    border: 3px solid #000;
+}
+
+textarea {
+    width: 20%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    transition: height 0.4s ease-in-out;
+  }
+
+textarea:focus{
+    height: 160px;
+}
+
+  select {
+    width: 10%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+
+  @media screen and (max-width: 1150px) {
+    select{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+  }
+
+canvas{
+    border: 2px solid black;
+}
+
+div.despre1{
+    text-align: center;
+}
+
+#despre2{
+    text-align: left;
+    margin-left: 40%;
+    padding-left: 1%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+footer{
+    color: wheat;
+    margin-top: auto;
+}
+
+form#inreg1 fieldset input[id]{
+    width: 300;
+    height: 30;
+}
+
+div.video1 {
+    text-align: center;
+}
+h1#video1{
+    text-align: center;
+    font-size: 50px;
+}
+
+section#section1{
+    text-align: center;
+    background-color: darkgoldenrod;
+    opacity: 0.85;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 20px;
+    font-size: 30;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section#section2{
+    text-align: center;
+}
+section#section2>div>div>label{
+    padding-right: 15px;
+}
+
+section#section3{
+    text-align: center;
+}
+
+fieldset.verifica{
+    background-color:lightgoldenrodyellow;
+    opacity: 0.8;
+    color: #000;
+}
+fieldset.verifica>input{
+    margin-right: 30px;
+    height: 30px;
+    width: 250px;
+}
+fieldset.verifica>label{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+form#books{
+    text-align: left;
+    margin-left: 40%;
+}
+
+svg{
+    margin-left: 40%;
+}
+
+div#poze1>img{
+    position:relative; 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+
+div#poze1>img#img6{
+    height: 600px;
+}
+
+
+

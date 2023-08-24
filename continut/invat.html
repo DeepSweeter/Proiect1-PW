@@ -1,0 +1,62 @@
+<br><br><br>
+    <section id="section1">
+        <div>
+            <p id="date"></p>
+            <p id="url"></p>
+            <p id="browser"></p>
+            <p id="location"></p>
+            <p id="os"></p>
+        </div>
+    </section>
+
+    <section id="section2">
+        <div>
+            <div>
+                <input type="color" id="fill" name="fill"></input>
+                <label for="fill">Fundal</label>
+                <input type="color" id="margini" name="margini"></input>
+                <label for="margini">Margini</label>
+            </div>
+            <br>
+            <canvas id="myCanvas" onclick="sectiunea2(event);" width="500" height="300">
+            </canvas> 
+            
+        </div>
+    </section>
+    <br>
+
+    <section id="section3">
+        <label>Alege culoarea unei celule:</label>
+        <input type="color" id="tableColour"><br><br>
+        <button onclick="tableElementChangeColour();">Schimbă culoarea celulei specificate</button>
+        <br><br>
+        <label for="tableRowAdd">Linie:</label><br>
+        <input type="number" id="tableRowAdd" name="tableRowAdd" max="1" min="1" value="1" onclick="setMaxValues();" />
+        <br><br>
+        <label for="tableColumnAdd">Coloană:</label><br>
+        <input type="number" id="tableColumnAdd" name="tableColumnAdd" max="2" min="1" value="1" onclick="setMaxValues();"/>
+        <br>
+        <!-- In caz ca reusesc sa fac functiile
+        <button onclick="addRow();">Adaugă linie unde este specificat</button>
+        <button onclick="addColumn();">Adaugă coloană unde este specificat</button>
+        -->
+        <span id="tableSpanError"></span>
+        <br>
+        <br>
+        <table id="tableInvat">  
+            <tr><th>Filosof</th><th>Filosofia</th></tr>
+            <tr>
+                <td>Seneca</td>
+                <td>Stoicism</td>
+            </tr>
+            <tr>
+                <td>Jean-Paul Sartre</td>
+                <td>Existențialism</td>
+            </tr>
+            <tr>
+                <td>Albert Camus</td>
+                <td>Absurdism</td>
+            </tr>
+        </table>
+        <br>
+    </section>
